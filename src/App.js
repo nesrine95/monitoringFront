@@ -1,25 +1,18 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Child from './child';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Child />
     </div>
   );
 }
 
 export default App;
+/*place thıs ın the dıv to establısh connexıon wıth back
+<form action="../../post" method="post" 
+className="form">
+<button type="submit">Connected?</button>
+</form>*/
